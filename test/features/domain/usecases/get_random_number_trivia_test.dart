@@ -8,7 +8,9 @@ import 'package:tdd/number_trivia/domain/usecases/get_random_number_trivia.dart'
 
 
 class MockNumberTriviaRepository extends Mock
-    implements NumberTriviaRepository {}
+    implements NumberTriviaRepository {
+
+}
 
 void main() {
   GetRandomNumberTrivia useCase;
